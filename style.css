@@ -1547,7 +1547,7 @@ select{
 /* conteneur six,inscription */
 .six{
     width: 100vh;
-    height: 150vh;
+    height: 170vh;
     display: flex;
     flex-direction: column;
     background-color: green;
@@ -1559,7 +1559,7 @@ select{
 }
 .book2{
     width: 90%;
-    height: 70vh;
+    height: 90vh;
     margin-left: 50px;
     margin-top: 40px;
     background-color: blue;
