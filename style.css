@@ -571,7 +571,7 @@ header button a{
     background-color: green;
 }
 .book2{
-    width: 40%;
+    width: 35%;
     height: 70vh;
     margin-left: 50px;
     margin-top: 40px;
@@ -662,7 +662,7 @@ select{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
-#yep button{
+.book2 button{
     width: 150px;
     height: 40px;
     background-color: #200407;
