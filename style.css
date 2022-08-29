@@ -1163,7 +1163,7 @@ select{
     transform: translate(-60px, 0px);
     text-align: center;
 }
-.home1 button{
+.oye{
     background-color:#200407;
     height: 50px;
     width: 130px;
@@ -1174,7 +1174,7 @@ select{
     font-family: 'Nunito Sans', sans-serif;
     transform: translate(20px, 10px);
 }
-.home1 button a{
+.oye a{
     color: white;
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
@@ -1550,7 +1550,7 @@ select{
     height: 150vh;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: green;
 }
 .book{
     width: 100vw;
