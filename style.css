@@ -573,15 +573,11 @@ header button a{
     margin-left: 50px;
     margin-top: 40px;
 }
-.book2 h3{
+#yep h3{
     font-size: 35px;
-    transform: translate(0px, 20px);
+    transform: translate(150px, 10px);
     font-family: 'Handlee', cursive;
-    width: 434px;
-    height: 60px;
-    background-color: #200407;
-    text-align: center;
-    color: white;
+    color: #200407;
 }
 
 .book h5{
@@ -629,13 +625,14 @@ header button a{
 }
 
 #yep{
-    width: 80%;
+    width: 33%;
     height: 60vh;
     background-color: #dc3545; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     transform: translate(0px, 20px);
+    border-radius: 20px;
 }
 
 #yep input{
@@ -660,7 +657,7 @@ select{
     width: 150px;
     height: 40px;
     background-color: #200407;
-    transform: translate(140px, 10px);
+    transform: translate(140px, 0px);
     border-radius: 15px;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -1163,7 +1160,7 @@ select{
     transform: translate(-60px, 0px);
     text-align: center;
 }
-.oye{
+.home1 button{
     background-color:#200407;
     height: 50px;
     width: 130px;
@@ -1174,7 +1171,7 @@ select{
     font-family: 'Nunito Sans', sans-serif;
     transform: translate(20px, 10px);
 }
-.oye a{
+.home1 button a{
     color: white;
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
@@ -1547,10 +1544,9 @@ select{
 /* conteneur six,inscription */
 .six{
     width: 100vh;
-    height: 170vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
-    background-color: green;
 }
 .book{
     width: 100vw;
@@ -1559,10 +1555,9 @@ select{
 }
 .book2{
     width: 90%;
-    height: 90vh;
+    height: 70vh;
     margin-left: 50px;
     margin-top: 40px;
-    background-color: blue;
 }
 .book2 h3{
     font-size: 35px;
@@ -1620,7 +1615,12 @@ select{
     color: white;
     text-decoration: none;
 }
-
+#yep h3{
+    font-size: 35px;
+    color: #200407;
+    transform: translate(60px, 15px);
+    font-family: 'Handlee', cursive;
+}
 #yep{
     width:90vw;
     height: 60vh;
@@ -1628,7 +1628,7 @@ select{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    transform: translate(-30px, 20px);
+    transform: translate(20px, 20px);
 }
 
 #yep input{
@@ -1988,7 +1988,7 @@ select{
     padding: 2vw 4vw;
     background-color: #200407;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
 }
 
 
