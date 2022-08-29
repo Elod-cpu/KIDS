@@ -1544,7 +1544,7 @@ select{
 /* conteneur six,inscription */
 .six{
     width: 100vh;
-    height: 150vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
 }
@@ -1553,22 +1553,7 @@ select{
     height: 70vh;
     margin-left: 0px;
 }
-.book2{
-    width: 90%;
-    height: 70vh;
-    margin-left: 50px;
-    margin-top: 40px;
-}
-.book2 h3{
-    font-size: 35px;
-    transform: translate(-30px, 20px);
-    font-family: 'Handlee', cursive;
-    width: 340px;
-    height: 40px;
-    background-color: #200407;
-    text-align: center;
-    color: white;
-}
+
 
 .book h5{
     font-size: 20px;
