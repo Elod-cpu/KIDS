@@ -566,6 +566,7 @@ header button a{
     width: 45%;
     height: 75vh;
     margin-left: 100px;
+    background-color: green;
 }
 .book2{
     width: 40%;
@@ -633,6 +634,7 @@ header button a{
     justify-content: space-around;
     transform: translate(0px, 20px);
     border-radius: 20px;
+    background-color: blue;
 }
 
 #yep input{
