@@ -1366,7 +1366,7 @@ select{
 /* conteneur cinq,formation */
 .cinq{
     width: 100vw;
-    height: 280vh;
+    height: 290vh;
 }
 .classes{
     display: flex;
@@ -1546,14 +1546,12 @@ select{
     width: 100vh;
     height: 130vh;
     display: flex;
-    flex-direction: column;
 }
 .book{
     width: 100vw;
     height: 70vh;
     margin-left: 0px;
 }
-
 
 .book h5{
     font-size: 20px;
