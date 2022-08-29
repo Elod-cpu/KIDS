@@ -1550,6 +1550,7 @@ select{
     height: 150vh;
     display: flex;
     flex-direction: column;
+    background-color: blue;
 }
 .book{
     width: 100vw;
@@ -1561,6 +1562,7 @@ select{
     height: 70vh;
     margin-left: 50px;
     margin-top: 40px;
+    background-color: blue;
 }
 .book2 h3{
     font-size: 35px;
@@ -1986,7 +1988,7 @@ select{
     padding: 2vw 4vw;
     background-color: #200407;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
 }
 
 
