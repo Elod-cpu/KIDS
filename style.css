@@ -1421,7 +1421,7 @@ select{
 .sisi2 img{
     width: 250px;
     height: 35vh;
-    transform: translate(30px, 150px);
+    transform: translate(30px, 160px);
     border-radius: 15px;
 }
 .sisi3{
@@ -1603,6 +1603,7 @@ select{
     color: #200407;
     transform: translate(60px, 15px);
     font-family: 'Handlee', cursive;
+    display: flex;
 }
 #yep{
     width:90vw;
