@@ -490,6 +490,7 @@ header button a{
     border-radius: 15px;
     box-shadow: 0px 2px 3px;
     background-color: #dc3545;
+
     transform: translate(-125px, -10px);
 }
 .mark1{
@@ -561,28 +562,35 @@ header button a{
 .six{
     width: 100%;
     height: 85vh;
-    background-color: orangered;
     display: flex;
 }
 .book{
     width: 45%;
     height: 75vh;
     margin-left: 100px;
-    background-color: green;
 }
-.book2{
-    width: 35%;
-    height: 70vh;
-    margin-left: 50px;
-    margin-top: 40px;
-    background-color: #dc3545;
+.book2 form{
+    width: 45%;
+    height: 75vh;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.six .book2{
+    width: 35%;
+    height: 70vh;
+    margin-top: 40px;
+    background-color: #dc3545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
 .book2 h3{
     font-size: 35px;
-    transform: translate(150px, 10px);
+    transform: translate(-10px, 40px);
     font-family: 'Handlee', cursive;
     color: #200407;
 }
@@ -626,50 +634,35 @@ header button a{
     font-family: 'Nunito Sans', sans-serif;
     transform: translate(20px, 60px);
 }
+#yep  button{
+    color: white;
+    background-color: #200407;
+    width: 150px;
+    height: 30px;
+    transform: translate(0px, 10px);
+    border-radius: 10px;
+}
+#yep input{
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transform: translate(-120px, 50px);
+}
+#yep select{
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transform: translate(-120px, 50px);
+}
 .book button a{
     color: white;
     text-decoration: none;
-}
-
-#yep{
-    width: 33%;
-    height: 60vh;
-    background-color: #dc3545; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    transform: translate(0px, 20px);
-    border-radius: 20px;
-    background-color: blue;
-}
-
-.book2 input{
-    width: 400px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 7px;
-    border: none;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-    justify-content: space-around;
-}
-select{
-    width: 400px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 7px;
-    border: none;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-}
-.book2 button{
-    width: 150px;
-    height: 40px;
-    background-color: #200407;
-    transform: translate(140px, 0px);
-    border-radius: 15px;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* conteneur sept,inscription */
@@ -1033,6 +1026,7 @@ select{
     background-color: #200407;
     width: 60%;
     height: 58vh;
+
 }
 
 
@@ -1046,6 +1040,7 @@ select{
     width: 100%;
     height: 7px;
     border-radius: 10px;
+    flex-direction: column;
 }
 #writing textarea{
     border: 0;
@@ -1135,8 +1130,8 @@ select{
 }
 
 .home1  {
-    height: 60vh;
-    width: 45%;
+    height: 70vh;
+    width: 70vw;
     margin-top: 150px;
     margin-left: 100px;
 }
@@ -1188,7 +1183,7 @@ select{
 .home2 {
     height: 40vh;
     width: 60%;
-   transform: translate(5px, -250px);
+   transform: translate(5px, -190px);
 }
 .home2 img{
     height: 35vh;
@@ -1264,7 +1259,7 @@ select{
     height: 100vh;
 }
 .right img{
-    transform: translate(50px, 20px);
+    transform: translate(37px, 20px);
     height: 60vh;
     width: 80%;
 }
@@ -1316,32 +1311,34 @@ select{
 
 .quatre{
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
 }
 .pedag1{
     width: 100%;
     height: 50vh;
+    transform: translate(0px ,0px);
+    
 }
 .oui{
-    width: 60px;
+    width: 50px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(275px,75px);
+    transform: translate(275px,68px);
 }
 .oui1{
     width: 50px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(45px, -11px);
+    transform: translate(60px, -15px);
 }
 .pedag1 h5{
     font-size: 20px;
     font-family: 'Nunito Sans', sans-serif;
     color: #dc3545;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .pedag1 h6{
     font-size: 25px;
@@ -1369,13 +1366,13 @@ select{
 .pedag2 img{
     width: 250px;
     height: 30vh;
-    transform: translate(-220px, -60px);
+    transform: translate(-225px, -100px);
 }
 
 /* conteneur cinq,formation */
 .cinq{
     width: 100vw;
-    height: 290vh;
+    height: 270vh;
 }
 .classes{
     display: flex;
@@ -1430,7 +1427,7 @@ select{
 .sisi2 img{
     width: 250px;
     height: 35vh;
-    transform: translate(30px, 160px);
+    transform: translate(30px, 200px);
     border-radius: 15px;
 }
 .sisi3{
@@ -1441,7 +1438,7 @@ select{
 .sisi3 img{
     width: 250px;
     height: 35vh;
-    transform: translate(30px, 315px);
+    transform: translate(28px, 380px);
     border-radius: 15px;
 }
 .design{
@@ -1450,7 +1447,7 @@ select{
     border-radius: 15px;
     box-shadow: 0px 2px 3px;
     background-color: #dc3545;
-    transform: translate(20px, -10px);
+    transform: translate(25px, -10px);
 }
 .design1{
     font-size: 25px;
@@ -1463,11 +1460,11 @@ select{
 
 .codage{
     width: 260px;
-    height: 45vh;
+    height: 40vh;
     border-radius: 15px;
     box-shadow: 0px 2px 3px;
     background-color: #dc3545;
-    transform: translate(30px, 120px);
+    transform: translate(25px, 160px);
 }
 .codage1{
     font-size: 25px;
@@ -1479,11 +1476,11 @@ select{
 }
 .mark{
     width: 260px;
-    height: 45vh;
+    height: 40vh;
     border-radius: 15px;
     box-shadow: 0px 2px 3px;
     background-color: #dc3545;
-    transform: translate(30px, 300px);
+    transform: translate(25px, 320px);
 }
 .mark1{
     font-size: 25px;
@@ -1553,12 +1550,13 @@ select{
 /* conteneur six,inscription */
 .six{
     width: 100vh;
-    height: 130vh;
+    height: 150vh;
     display: flex;
+    flex-direction: column;
 }
 .book{
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     margin-left: 0px;
 }
 
@@ -1574,7 +1572,7 @@ select{
     width: 50px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(260px,80px);
+    transform: translate(250px,75px);
 }
 .book h1{
     font-size: 35px;
@@ -1607,6 +1605,10 @@ select{
     color: white;
     text-decoration: none;
 }
+.book2{
+    transform: translate(70px, 40px);
+    width: 90vw;
+}
 #yep h3{
     font-size: 35px;
     color: #200407;
@@ -1614,43 +1616,34 @@ select{
     font-family: 'Handlee', cursive;
     display: flex;
 }
-#yep{
-    width:90vw;
-    height: 60vh;
-    background-color: #dc3545; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    transform: translate(20px, 20px);
+#yep  button{
+    color: white;
+    background-color: #200407;
+    width: 130px;
+    height: 30px;
+    transform: translate(-70px, 10px);
+    border-radius: 10px;
+    border: none;
+}
+#yep input{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transform: translate(-100px, 50px);
+}
+#yep select{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transform: translate(-100px, 50px);
 }
 
-#yep input{
-    width: 300px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 7px;
-    border: none;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-}
-select{
-    width: 300px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 7px;
-    border: none;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-}
-#yep button{
-    width: 150px;
-    height: 40px;
-    background-color: #200407;
-    transform: translate(100px, 10px);
-    border-radius: 15px;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-}
 
 /* conteneur sept,inscription */
 
@@ -1806,6 +1799,7 @@ select{
     height: 120vh;
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
 }
 .part{
     width: 100vw;
@@ -1841,7 +1835,7 @@ select{
 }
 .part2{
     width: 98vw;
-    height: 85vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1850,7 +1844,7 @@ select{
 
 .part2 img{
     width: 300px;
-    height: 20vh;
+    height: 15vh;
     border-radius: 15px;
     box-shadow: 0px 2px 3px;
 }
@@ -1979,7 +1973,7 @@ select{
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    background-color: #200407;
+    background-color: #200407;;
     width: 100vw;
     height: 70vh;
 }

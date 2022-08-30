@@ -6,7 +6,7 @@
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>Ecole241_Kids</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
 </head>
 
 <body>
@@ -46,7 +46,7 @@
             <h3>Centre numérique pour enfants</h3>
             <h1>Nouvelle approche éducative enfants</h1>
             <h6>Le numérique se développe à une vitesse vertigineuse et prend de plus en plus d'importance dans notre vie quotidienne. <br> Et cela se ramarque également dans les métiers du futurs... </h6>
-            <button><a href="#oyir">Inscription</a></button>
+            <button><a href="#yep">Inscription</a></button>
         </div>
         <div class="home2">
             <img src="./img/pedagogie.jpg" alt="">
@@ -69,14 +69,14 @@
             </div>
         </div>  
     </div>
-    <div  class="conteneur  trois">
+    <div id="Moi" class="conteneur  trois">
         <div class="right">
             <img src="./img/Apropos.jpg"  alt="">
         </div>
 
         <div class="left">
             <div class="span">
-                <h5>A propos de nous</h5>
+                <h5 >A propos de nous</h5>
                 <div class="span1"></div>
             </div>
            
@@ -91,7 +91,7 @@
         </div>
         
         </div>
-    <div class=" quatre">
+    <div id="#Savoir" class=" quatre">
         <div  class="pedag1">
             <div class="oui"></div>
             <h5>Notre pédagogie</h5>
@@ -119,7 +119,7 @@
         </div>
 
     </div>
-    <div  class="cinq">
+    <div id="#Taf" class="cinq">
         <div class="jobs">
             <div class="oui"></div>
             <h5 >Nos formations</h5>
@@ -181,16 +181,25 @@
         </div>
         <div class="book2">
             <h3>Inscription</h3>
-            <input type="text" placeholder="Votre nom">
-            <input type="email" placeholder="Votre mail">
-            <input type="text" placeholder="Nom de l'apprenant">
-           <select name="" id="">
-                <option value="">----Sélectionner la formation---</option>
-                <option value="">UX/UI Design</option>
-                <option value="">Apprentissage codage</option>
-                <option value="">Web Marketing</option>
-           </select>
-           <button type="submit"> Soumettre</button>
+            <form id="yep" action="action_page.php">
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom..">
+            
+                <input type="email" id="lname" name="lastname" placeholder="Votre mail..">
+
+                <input type="text" id="lname" name="lastname" placeholder="Nom de l'enfant...">
+            
+                <select id="country" name="country">
+                  <option value="australia">---Sélectionner la formation---</option>
+                  <option value="canada">UI/UX Design</option>
+                  <option value="usa">Apprentissage codage</option>
+                  <option value="usa">Web Marketing</option>
+                </select>
+            
+            
+                <button type="submit">Soummettre</button>
+            
+            </form>
+
         </div>
         
     </div>
