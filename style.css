@@ -127,10 +127,10 @@ header button a{
 #sidebar{
     position: fixed;
     width:30%;
-    height: 35vh;
+    height: 38vh;
     left: -400px;
     background-color: white; 
-    transform: translate(250px, 150px);
+    transform: translate(250px, 160px);
     transition: 0.5s;
     z-index: 1;
 }
@@ -337,13 +337,13 @@ header button a{
     width: 80px;
     height: 2.5px;
     background-color: #dc3545; 
-    transform: translate(500px,75px);
+    transform: translate(515px, 77px);
 }
 .oui1{
     width: 86px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(765px, -10px);
+    transform: translate(765px, -12px);
 }
 .pedag1 h5{
     font-size: 20px;
@@ -433,7 +433,13 @@ header button a{
     width: 90px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(490px, 76px);
+    transform: translate(510px, 78px);
+}
+.jobs .oui1{
+    width: 90px;
+    height: 3px;
+    background-color: #dc3545; 
+    transform: translate(757px, -12px);
 }
 .jobs h5{
     font-size: 20px;
@@ -569,6 +575,7 @@ header button a{
     height: 75vh;
     margin-left: 100px;
 }
+
 .book2 form{
     width: 45%;
     height: 75vh;
@@ -626,7 +633,7 @@ header button a{
 .book button{
     background-color:#dc3545; 
     height: 40px;
-    width: 160px;
+    width: 120px;
     margin-right: 70px;
     border-radius: 25px;
     border: none;
@@ -664,7 +671,11 @@ header button a{
     color: white;
     text-decoration: none;
 }
-
+/* inscription */
+.insc{
+    width: 100vw;
+    height: 40vh;
+}
 /* conteneur sept,inscription */
 
 .sept{
@@ -695,13 +706,13 @@ header button a{
     width: 80px;
     height: 2.5 px;
     background-color: #dc3545; 
-    transform: translate(515px, 75px);
+    transform: translate(530px, 77px);
 }
 .testi .oui1{
     width: 80px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(750px,-10px);
+    transform: translate(750px, -12px);
 }
 .tem{
     width: 92%;
@@ -842,13 +853,13 @@ header button a{
     width: 80px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(510px,75px);
+    transform: translate(515px,77px);
 }
 .part .oui1{
     width: 80px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(760px,-10px);
+    transform: translate(770px, -12px);
 }
 .part2{
     width: 98%;
@@ -1070,6 +1081,98 @@ header button a{
     border-radius: 20px;
     border: white solid 1px;
 }
+/* button details insc form */
+.texte3 button{
+    background-color:white; 
+    height: 50px;
+    width: 150px;
+    margin-right: 70px;
+    border-radius: 25px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    transform: translate(620px, -80px);
+}
+.texte3 a{
+    color: #dc3545;
+    text-decoration: none;
+}
+/* texte2 */
+.texte2 button{
+    background-color:white; 
+    height: 50px;
+    width: 150px;
+    margin-right: 70px;
+    border-radius: 25px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    transform: translate(600px, -140px);
+}
+.texte2 a{
+    color: #dc3545;
+    text-decoration: none;
+}
+/* texte 1 */
+.texte1 button{
+    background-color:white; 
+    height: 50px;
+    width: 150px;
+    margin-right: 70px;
+    border-radius: 25px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    transform: translate(620px, -20px);
+}
+.texte1 a{
+    color: #dc3545;
+    text-decoration: none;
+}
+/* blog  */
+.blog p{
+    transform:translate(50px, 150px) ;
+    color: white;
+}
+/* UX design */
+.ki img{
+    width: 40%;
+     height: 80vh;
+    transform: translate(-10px, -10px);
+}
+.ki p{
+    width: 300px;
+    height: 300px;
+    transform: translate(40px,80px);
+     color: white;
+}
+/* coding */
+.kiz img{
+    width: 40%; 
+    height: 60vh;
+}
+.kiz p{
+    transform: translate(40px,80px); 
+    color: white;
+}
+.texte2 button{
+    transform: translate(650px,-150px); 
+}
+/* web mark */
+.koh img{
+    width: 40%; 
+    height: 75vh;
+}
+.koh p{
+    transform: translate(40px,100px); 
+    color: white;
+}
+.texte3 button{
+    transform: translate(650px,-150px); 
+}
 
 @media screen  and (min-width:601px ){
     #sidebar{
@@ -1078,7 +1181,13 @@ header button a{
     #toggle{
         display: none;
     }
-
+    #yo{
+        display: none;
+    }
+    .home1 button{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width:600px){
@@ -1098,7 +1207,9 @@ header button a{
         position: fixed;
         z-index: 1;
     }
-    
+    .oh{
+        display: none;
+    }
     header .logo{
         height: 70px;
         width: 122px;
@@ -1126,7 +1237,6 @@ header button a{
     height: 115h;
     width: 100vw;
     display: flex;
-   
 }
 
 .home1  {
@@ -1390,7 +1500,13 @@ header button a{
     width: 60px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(275px , 75px);
+    transform: translate(50px , 75px);
+}
+.jobs .oui1{
+    width: 60px;
+    height: 3px;
+    background-color: #dc3545; 
+    transform: translate(270px , -13px);
 }
 .jobs h5{
     font-size: 20px;
@@ -1550,7 +1666,7 @@ header button a{
 /* conteneur six,inscription */
 .six{
     width: 100vh;
-    height: 150vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
@@ -1572,7 +1688,7 @@ header button a{
     width: 50px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(250px,75px);
+    transform: translate(250px,78px);
 }
 .book h1{
     font-size: 35px;
@@ -1605,11 +1721,16 @@ header button a{
     color: white;
     text-decoration: none;
 }
-.book2{
-    transform: translate(70px, 40px);
-    width: 90vw;
+.six .book2{
+    display: none;
 }
-#yep h3{
+.book2 h3{
+    display: none;
+}
+#yep{
+    display: none;
+}
+/* #yep h3{
     font-size: 35px;
     color: #200407;
     transform: translate(60px, 15px);
@@ -1642,8 +1763,19 @@ header button a{
     border: none;
     text-align: center;
     transform: translate(-100px, 50px);
-}
+} */
 
+#yo{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 25vh;
+    background-color: #dc3545;
+    margin-top: 50px;
+}
+#yo input{
+    transform: translate(20px, 20px);
+}
 
 /* conteneur sept,inscription */
 
@@ -1681,7 +1813,7 @@ header button a{
     width: 60px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(60px,-8px);
+    transform: translate(70px,-10px);
 }
 .tem{
     width: 100vw;
@@ -1825,13 +1957,13 @@ header button a{
     width: 60px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(40px,75px);
+    transform: translate(50px,75px);
 }
 .part .oui1{
     width: 60px;
     height: 3px;
     background-color: #dc3545; 
-    transform: translate(275px,-10px);
+    transform: translate(277px,-13px);
 }
 .part2{
     width: 98vw;
@@ -1977,8 +2109,6 @@ header button a{
     width: 100vw;
     height: 70vh;
 }
-
-
 #writing input{
     border: 0;
     margin: 3px  0;
@@ -2021,5 +2151,180 @@ header button a{
     color: white;
     border-radius: 20px;
     border: white solid 1px;
+}
+
+/* form insc */
+#yo input{
+    border: 0;
+    margin: 3px  0;
+    padding: 20px;
+    outline: none;
+    font-size:16px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 70vw;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform: translate(17px, 0px);
+}
+
+#yo {
+    transform: translate(5px, -10px);
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+#yo button{
+    padding: 5px;
+    font-size: 18px;
+    background-color: #200407;
+    width: 120px;
+    height: 40px;
+    transform: translate(110px, 15px);
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    border: white solid 1px;
+}
+.insc h3{
+    font-size: 35px;
+    font-family: 'Handlee', cursive;
+    color: #dc3545;
+    transform: translate(100px, 20px);
+    width: 200px;
+}
+
+/* responsif blog */
+.texte4{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px, 20px);
+}
+.texte4 h1{
+    font-size: 20px;
+    transform: translate(-50px, 0px);
+}
+.texte4 h5{
+    font-size: 15px;
+    transform: translate(-50px, 0px);
+    width: 300px;
+    height: 100px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: blue;
+}
+.blog img{
+    transform: translate(30px, -20px);
+}
+.blog p{
+    transform: translate(10px, -10px);
+    width: 300px;
+    height: 300px;
+}
+/* responsif web design */
+.texte1{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px, 20px);
+}
+.texte1 h1{
+    font-size: 20px;
+    transform: translate(-50px, 0px);
+}
+.texte1 h5{
+    font-size: 15px;
+    transform: translate(-50px, 0px);
+    width: 300px;
+    height: 100px;
+}
+.ki{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: blue;
+}
+.ki img{
+    width: 250px;
+    height: 250px;
+    transform: translate(-10px, -20px);
+}
+.ki p{
+    transform: translate(-10px, -10px);
+    width: 300px;
+    height: 300px;
+}
+/* responsif web design */
+.texte2{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px, 20px);
+}
+.texte2 h1{
+    font-size: 20px;
+    transform: translate(-50px, 0px);
+}
+.texte2 h5{
+    font-size: 15px;
+    transform: translate(-50px, 0px);
+    width: 300px;
+    height: 100px;
+}
+.kiz{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: blue;
+}
+.kiz img{
+    width: 250px;
+    height: 250px;
+    transform: translate(-10px, -20px);
+}
+.kiz p{
+    transform: translate(-10px, -10px);
+    width: 300px;
+    height: 300px;
+}
+/* responsif web design */
+.texte3{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px, 20px);
+}
+.texte3 h1{
+    font-size: 20px;
+    transform: translate(-50px, 0px);
+}
+.texte3 h5{
+    font-size: 15px;
+    transform: translate(-50px, 0px);
+    width: 300px;
+    height: 100px;
+}
+.koh{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+}
+.koh img{
+    width: 250px;
+    height: 250px;
+    transform: translate(-10px, -20px);
+}
+.koh p{
+    transform: translate(-10px, -10px);
+    width: 300px;
+    height: 300px;
 }
 }
