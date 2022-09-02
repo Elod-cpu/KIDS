@@ -1092,7 +1092,7 @@ header button a{
     font-size: 19px;
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
-    transform: translate(620px, -80px);
+    transform: translate(620px, -20px);
 }
 .texte3 a{
     color: #dc3545;
@@ -1109,7 +1109,7 @@ header button a{
     font-size: 19px;
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
-    transform: translate(600px, -140px);
+    transform: translate(600px, 0px);
 }
 .texte2 a{
     color: #dc3545;
@@ -1127,7 +1127,7 @@ header button a{
     font-size: 19px;
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
-    transform: translate(620px, -20px);
+    transform: translate(620px, 130px);
 }
 .texte1 a{
     color: #dc3545;
@@ -1135,7 +1135,7 @@ header button a{
 }
 /* blog  */
 .blog p{
-    transform:translate(50px, 150px) ;
+    transform:translate(50px, 100px) ;
     color: white;
 }
 /* UX design */
@@ -1159,9 +1159,7 @@ header button a{
     transform: translate(40px,80px); 
     color: white;
 }
-.texte2 button{
-    transform: translate(650px,-150px); 
-}
+
 /* web mark */
 .koh img{
     width: 40%; 
@@ -1171,9 +1169,7 @@ header button a{
     transform: translate(40px,100px); 
     color: white;
 }
-.texte3 button{
-    transform: translate(650px,-150px); 
-}
+
 
 @media screen  and (min-width:601px ){
     #sidebar{
