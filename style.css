@@ -68,7 +68,7 @@ ul li a:hover{
 }
 
 header button{
-    background-color:#dc3545; 
+    background-color:#dc3545;; 
     height: 40px;
     width: 110px;
     margin-right: 70px;
@@ -160,10 +160,10 @@ header button a{
 }
 /* conteneur un,home */
 .un{
-    background-color: #dc3545;
     height: 100vh;
     width: 100%;
     display: flex;
+    /* background-color: #b9757c; */
 }
 
 .home1  {
@@ -175,18 +175,18 @@ header button a{
 
 .home1 h3{
     font-size: 23px;
-    color: white;
+    color: black;
     font-family: 'Handlee', cursive;
 }
 .home1 h1{
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: blueviolet;
     margin-top: 15px;
     font-family: 'Handlee', cursive;
 }
 .home1 h6{
     font-size: 15px;
-    color: white;
+    color: black;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: lighter;
     margin-top: 10px;
@@ -210,7 +210,7 @@ header button a{
 
 .home2 {
     height: 60vh;
-    width: 25%;
+    width: 30%;
     margin-top: 200px;
     margin-left: 50px;
 }
@@ -218,6 +218,7 @@ header button a{
     height: 65vh;
     width: 90%;
     transform: translate(50px, -30px);
+    border-radius: 50%;
 }
 
 /* conteneur deux,points forts */
@@ -245,6 +246,7 @@ header button a{
     height: 100px;
     transform: translate(100px, 40px);
 }
+
 .svf p{
     font-size: 25px;
     font-weight: 700;
